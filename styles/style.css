@@ -54,6 +54,42 @@ body {
 .shooting_stars .title_section span {
   color: #4a4ff2;
 }
+.shooting_stars .design_section p {
+  font-style: italic;
+  font-size: 18px;
+  color: #979797;
+  font-weight: 100;
+}
+.shooting_stars .design_section p::before {
+  content: "";
+  border: 1px solid #979797;
+  height: 1px;
+  width: 30px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.work_hard {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 91px;
+}
+.work_hard .work_hard_title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-right: 94px;
+}
+.work_hard div {
+  display: grid;
+  column-gap: 70px;
+  row-gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+.work_hard div p {
+  font-size: 18px;
+  color: #979797;
+}
 
 .gallery_grid {
   display: grid;
