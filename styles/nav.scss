@@ -1,0 +1,32 @@
+@import "mixins";
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+
+  ul {
+    @include nav_font;
+    display: flex;
+
+    li:not(:first-child) {
+      margin-left: 29px;
+    }
+
+    li:not(:first-child) {
+      margin-right: 95px;
+    }
+  }
+
+  span {
+    width: 15px;
+    height: 15px;
+
+    &:not(:first-child) {
+      margin-left: 24px;
+    }
+  }
+
+  .navfooter {
+    display: flex;
+  }
+}

@@ -1,9 +1,13 @@
-$light-background: white;
-$text-color: #222;
+@import "nav";
 
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  color: $text-color;
-  background-color: $light-background;
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 60px 124px;
+  font-family: "Mulish", sans-serif;
+}
+
+.sectionone {
+  height: 500px;
 }

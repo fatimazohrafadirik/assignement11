@@ -1,8 +1,39 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav ul {
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+}
+.nav ul li:not(:first-child) {
+  margin-left: 29px;
+}
+.nav ul li:not(:first-child) {
+  margin-right: 95px;
+}
+.nav span {
+  width: 15px;
+  height: 15px;
+}
+.nav span:not(:first-child) {
+  margin-left: 24px;
+}
+.nav .navfooter {
+  display: flex;
+}
+
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  color: #222;
-  background-color: white;
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 60px 124px;
+  font-family: "Mulish", sans-serif;
+}
+
+.sectionone {
+  height: 500px;
 }
 
 /*# sourceMappingURL=style.css.map */
