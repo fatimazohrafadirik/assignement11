@@ -2,10 +2,10 @@
 @import "variables";
 
 body {
-  max-width: 1110px;
+  max-width: 1150px;
   width: 100%;
   margin: 0 auto;
-  padding: 60px 124px;
+  padding: 60px 20px;
   font-family: "Mulish", sans-serif;
 }
 
@@ -68,12 +68,12 @@ body {
   .work_hard_title {
     font-size: 28px;
     font-weight: bold;
-    margin-right: 94px;
+    max-width: 635px;
   }
 
   div {
     display: grid;
-    column-gap: 70px;
+    column-gap: 50px;
     row-gap: 10px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -152,5 +152,160 @@ body {
   img:nth-child(12) {
     grid-column: 3;
     grid-row: 27 / span 6;
+  }
+}
+
+.awards {
+  margin-top: 100px;
+  margin-bottom: 66px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  border-top: 2px solid #d8d8d8;
+  border-bottom: 2px solid #d8d8d8;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+
+  p:nth-child(1) {
+    grid-column: 1 / span 4;
+    grid-row: 1;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  p:nth-child(2) {
+    grid-column: 5 / span 2;
+    grid-row: 1;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  p:nth-child(3) {
+    grid-column: 7 / span 2;
+    grid-row: 1;
+    font-size: 16px;
+    font-weight: normal;
+  }
+
+  p:nth-child(4) {
+    grid-column: 7 / span 2;
+    grid-row: 2;
+    font-size: 16px;
+    font-weight: normal;
+    color: #979797;
+  }
+
+  p:nth-child(5) {
+    grid-column: 10;
+    grid-row: 1;
+    font-size: 16px;
+    font-weight: normal;
+    color: #979797;
+  }
+  p:nth-child(6) {
+    grid-column: 5 / span 2;
+    grid-row: 5;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  p:nth-child(7) {
+    grid-column: 7 / span 2;
+    grid-row: 5;
+    font-size: 16px;
+    font-weight: normal;
+  }
+
+  p:nth-child(8) {
+    grid-column: 7 / span 2;
+    grid-row: 6;
+    font-size: 16px;
+    font-weight: normal;
+    color: #979797;
+  }
+
+  p:nth-child(9) {
+    grid-column: 10;
+    grid-row: 6;
+    font-size: 16px;
+    font-weight: normal;
+    color: #979797;
+  }
+}
+
+.designawards {
+  margin-bottom: 66px;
+  padding-bottom: 48px;
+  border-bottom: 2px solid #d8d8d8;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+
+  p:nth-child(1) {
+    grid-column: 1 / span 4;
+    grid-row: 1;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  p:nth-child(2) {
+    grid-column: 5 / span 2;
+    grid-row: 1;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  p:nth-child(3) {
+    grid-column: 7 / span 2;
+    grid-row: 1;
+    font-size: 16px;
+    font-weight: normal;
+  }
+
+  p:nth-child(4) {
+    grid-column: 7 / span 2;
+    grid-row: 2;
+    font-size: 16px;
+    font-weight: normal;
+    color: #979797;
+  }
+
+  p:nth-child(5) {
+    grid-column: 10;
+    grid-row: 1;
+    font-size: 16px;
+    font-weight: normal;
+    color: #979797;
+  }
+  p:nth-child(6) {
+    grid-column: 5 / span 2;
+    grid-row: 5;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  p:nth-child(7) {
+    grid-column: 7 / span 2;
+    grid-row: 5;
+    font-size: 16px;
+    font-weight: normal;
+  }
+
+  p:nth-child(8) {
+    grid-column: 7 / span 2;
+    grid-row: 6;
+    font-size: 16px;
+    font-weight: normal;
+    color: #979797;
+  }
+
+  p:nth-child(9) {
+    grid-column: 10;
+    grid-row: 6;
+    font-size: 16px;
+    font-weight: normal;
+    color: #979797;
   }
 }
