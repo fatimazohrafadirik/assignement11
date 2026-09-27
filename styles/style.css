@@ -405,6 +405,8 @@ body {
 }
 .formsection p {
   width: 444px;
+  font-size: 16px;
+  color: rgba(17, 17, 17, 0.8);
 }
 .formsection .form {
   display: grid;
@@ -430,16 +432,31 @@ body {
   grid-row: 4;
 }
 .formsection .form button {
-  width: 125px;
+  max-width: 125px;
+  height: 50px;
   color: #ffffff;
   background-color: #4a4ff2;
   font-size: 16px;
   font-weight: bold;
 }
-.formsection .form .inputs {
+.formsection .form input {
   font-size: 16px;
   font-weight: bold;
   color: #111111;
+  border: 0;
+  outline: 0;
+}
+.formsection .form input:focus {
+  outline: none !important;
+}
+.formsection .form .inputs::after {
+  content: "";
+  border: 1px solid #d8d8d8;
+  height: 1px;
+  width: 100%;
+  display: block;
+  margin-top: 17px;
+  margin-bottom: 46px;
 }
 
 /*# sourceMappingURL=style.css.map */
