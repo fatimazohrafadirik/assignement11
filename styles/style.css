@@ -392,4 +392,54 @@ body {
   gap: 30px;
 }
 
+.formsection {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 120px;
+}
+.formsection h1 {
+  width: 474px;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 28px;
+}
+.formsection p {
+  width: 444px;
+}
+.formsection .form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  max-width: 475px;
+  width: 100%;
+}
+.formsection .form div:nth-child(1) {
+  grid-column: 1;
+  grid-row: 1;
+}
+.formsection .form div:nth-child(2) {
+  grid-column: 1;
+  grid-row: 2;
+}
+.formsection .form div:nth-child(3) {
+  grid-column: 1;
+  grid-row: 3;
+}
+.formsection .form div:nth-child(4) {
+  grid-column: 1;
+  grid-row: 4;
+}
+.formsection .form button {
+  width: 125px;
+  color: #ffffff;
+  background-color: #4a4ff2;
+  font-size: 16px;
+  font-weight: bold;
+}
+.formsection .form .inputs {
+  font-size: 16px;
+  font-weight: bold;
+  color: #111111;
+}
+
 /*# sourceMappingURL=style.css.map */
