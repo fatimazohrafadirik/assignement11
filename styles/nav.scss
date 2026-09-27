@@ -21,6 +21,7 @@
   span {
     width: 15px;
     height: 15px;
+    cursor: pointer;
 
     &:not(:first-child) {
       margin-left: 24px;
@@ -29,5 +30,15 @@
 
   .navfooter {
     display: flex;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  a:hover {
+    background-color: white;
+    color: #4a4ff2;
   }
 }

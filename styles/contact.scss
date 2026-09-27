@@ -57,9 +57,11 @@
       color: #111111;
       border: 0;
       outline: 0;
+      width: 100%;
 
       &:focus {
         outline: none !important;
+        background-color: #a8a9d0;
       }
     }
     .inputs::after {
@@ -72,4 +74,8 @@
       margin-bottom: 46px;
     }
   }
+}
+
+iframe {
+  margin-bottom: 110px;
 }

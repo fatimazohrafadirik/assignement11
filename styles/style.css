@@ -17,12 +17,21 @@
 .nav span {
   width: 15px;
   height: 15px;
+  cursor: pointer;
 }
 .nav span:not(:first-child) {
   margin-left: 24px;
 }
 .nav .navfooter {
   display: flex;
+}
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+.nav a:hover {
+  background-color: white;
+  color: #4a4ff2;
 }
 
 .nav {
@@ -44,12 +53,21 @@
 .nav span {
   width: 15px;
   height: 15px;
+  cursor: pointer;
 }
 .nav span:not(:first-child) {
   margin-left: 24px;
 }
 .nav .navfooter {
   display: flex;
+}
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+.nav a:hover {
+  background-color: white;
+  color: #4a4ff2;
 }
 
 body {
@@ -445,9 +463,11 @@ body {
   color: #111111;
   border: 0;
   outline: 0;
+  width: 100%;
 }
 .formsection .form input:focus {
   outline: none !important;
+  background-color: #a8a9d0;
 }
 .formsection .form .inputs::after {
   content: "";
@@ -457,6 +477,10 @@ body {
   display: block;
   margin-top: 17px;
   margin-bottom: 46px;
+}
+
+iframe {
+  margin-bottom: 110px;
 }
 
 /*# sourceMappingURL=style.css.map */
