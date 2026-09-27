@@ -49,6 +49,7 @@
       background-color: #4a4ff2;
       font-size: 16px;
       font-weight: bold;
+      border: 0;
     }
 
     input {
@@ -58,20 +59,13 @@
       border: 0;
       outline: 0;
       width: 100%;
+      border-bottom: 1px solid #d8d8d8;
+      padding: 16px 0;
+      margin-bottom: 46px;
 
       &:focus {
-        outline: none !important;
-        background-color: #a8a9d0;
+        border-bottom: 1px solid $acccent_color;
       }
-    }
-    .inputs::after {
-      content: "";
-      border: 1px solid #d8d8d8;
-      height: 1px;
-      width: 100%;
-      display: block;
-      margin-top: 17px;
-      margin-bottom: 46px;
     }
   }
 }
