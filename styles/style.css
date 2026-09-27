@@ -25,6 +25,33 @@
   display: flex;
 }
 
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 96px;
+}
+.nav ul {
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+}
+.nav ul li:not(:first-child) {
+  margin-left: 29px;
+}
+.nav ul li:not(:first-child) {
+  margin-right: 95px;
+}
+.nav span {
+  width: 15px;
+  height: 15px;
+}
+.nav span:not(:first-child) {
+  margin-left: 24px;
+}
+.nav .navfooter {
+  display: flex;
+}
+
 body {
   max-width: 1150px;
   width: 100%;
@@ -289,6 +316,80 @@ body {
   font-size: 16px;
   font-weight: normal;
   color: #979797;
+}
+
+.fresh_title {
+  display: flex;
+  justify-content: space-between;
+}
+.fresh_title .introduction_fresh_title {
+  margin-bottom: 60px;
+}
+.fresh_title .introduction_fresh_title h1 {
+  margin-bottom: 28px;
+  font-size: 40px;
+  font-weight: bold;
+  max-width: 474px;
+}
+.fresh_title .introduction_fresh_title p {
+  max-width: 635px;
+  font-size: 16px;
+  color: rgba(17, 17, 17, 0.8);
+  line-height: 26px;
+}
+.fresh_title .table {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+.fresh_title .table .column1 {
+  color: #979797;
+  font-size: 18px;
+  font-weight: bold;
+}
+.fresh_title .table .column2 {
+  color: #111111;
+  font-size: 18px;
+  font-weight: bold;
+}
+.fresh_title .table p:nth-child(1) {
+  grid-column: 1;
+  grid-row: 1;
+}
+.fresh_title .table p:nth-child(2) {
+  grid-column: 1;
+  grid-row: 2;
+}
+.fresh_title .table p:nth-child(3) {
+  grid-column: 1;
+  grid-row: 3;
+}
+.fresh_title .table p:nth-child(4) {
+  grid-column: 1;
+  grid-row: 4;
+}
+.fresh_title .table p:nth-child(5) {
+  grid-column: 1;
+  grid-row: 5;
+}
+.fresh_title .table p:nth-child(6) {
+  grid-column: 1;
+  grid-row: 6;
+}
+
+.bodyprojects {
+  margin-bottom: 132px;
+  line-height: 26px;
+  color: rgba(17, 17, 17, 0.8);
+}
+.bodyprojects p {
+  margin-top: 44px;
+  margin-bottom: 44px;
+}
+.bodyprojects div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
